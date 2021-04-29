@@ -1,0 +1,130 @@
+/*----todos los estilos----*/
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.estiloBody{
+    font-family: 'Roboto', sans-serif;
+    background-color:rgb(105, 103, 103);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+}
+
+.contenedor40 {
+    width: 40%;
+    padding: 20px;
+    border-radius: 15px;
+    border: 1px solid #000000;
+}
+
+.estiloHeader{
+
+    background-color: rgb(255, 255, 255);
+    width: 90%;
+    padding: 20px;
+    margin-top: 25px;
+    border-bottom : 5px solid rgb(54, 168, 103);
+    display: flex;
+    justify-content: space-between;
+}
+
+.estiloUl {
+    display: flex;
+}
+
+.estiloLi {
+    list-style: none;
+    background-color:rgb(105, 103, 103);
+    margin: 0 20px 0 20px;
+    padding: 5px 15px 5px 15px;
+    border-radius: 5px;
+    border: 1px solid rgb(54, 168, 103);
+}
+
+.estiloLi:hover {
+    background-color: rgb(54, 168, 103);
+}
+
+.estiloLink {
+    text-decoration: none;
+    color: white;
+}
+
+.estiloMain {
+
+    background-color: rgb(255, 255, 255);
+    width: 90%;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+}
+
+.estiloH1 {
+    font-size: larger;
+    font-weight: 400;
+    margin: 30px 0 30px 0;
+}
+
+.estiloSeccion {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    display: flex;
+    padding: 20px;
+    justify-content: space-around;
+}
+
+.contenedorImg1 {
+    
+    width: 40%;
+    padding: 10px;
+    border-radius: 15px;
+    border: 1px solid #54d37a;
+
+}
+
+.imgPrincipal {
+    width: 100%;
+}
+
+.contenedorTexto1 {
+    width: 100%;
+
+}
+
+/*    estilos del footer    */ 
+
+.estiloFooter {
+    border-bottom: 5px solid rgb(54, 168, 103);
+    background-color: rgb(255, 255, 255);
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px; 
+}
+
+.github {
+    display: flex;
+    align-items: center;
+}
+
+.imgIco {
+    width: 35px;
+    margin-right: 25px;
+}
+
+.estiloTxtSmall {
+    font-size: small;
+    font-weight: 500;
+}
+
+.estiloH3 {
+    font-size: small;
+    font-weight: 400;
+}
+
